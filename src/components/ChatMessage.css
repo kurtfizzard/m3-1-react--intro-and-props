@@ -1,0 +1,38 @@
+.received-message {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-top: 30px;
+  width: 45px;
+}
+
+.divider {
+  margin-left: 10px;
+}
+
+.username {
+  margin-bottom: 5px;
+}
+
+.body {
+  background: rgba(218, 214, 214, 0.726);
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.sent-message {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.sent-message .body {
+  background: dodgerblue;
+  color: white;
+}
