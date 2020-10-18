@@ -24,8 +24,6 @@ const ChatStream = (props) => {
         }
         return (
           <ChatMessage
-            // user={message.user}
-            // body={message.body}
             messageType={messageType}
             message={message}
             key={message.id}

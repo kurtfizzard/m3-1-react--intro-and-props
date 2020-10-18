@@ -3,6 +3,7 @@ import React from "react";
 import "./ChatMessage.css";
 
 const ChatMessage = (props) => {
+  // conditional to determine which type of message is rendered
   if (props.messageType === "sent") {
     return <SentMessage message={props.message} />;
   } else {
@@ -10,6 +11,7 @@ const ChatMessage = (props) => {
   }
 };
 
+// a variable represending the sent message, rendering just the message
 const SentMessage = (props) => {
   return (
     <div className="sent-message">
@@ -18,6 +20,7 @@ const SentMessage = (props) => {
   );
 };
 
+// a variable represending the received message, rendering the username, avatar and message
 const ReceivedMessage = (props) => {
   return (
     <div className="received-message">
